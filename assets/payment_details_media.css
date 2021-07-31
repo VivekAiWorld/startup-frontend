@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+
+    #bill-input-card{
+        justify-content: center !important;
+    }
+    #kit-row{
+        margin-top: 2rem;
+    }
+    #price h1{
+        font-size: 9px;
+    } 
+    #card_sub_content h1{
+        font-size: 12px !important;
+    }
+    #card-label h1{
+        font-size: 13px !important;
+    } 
+    .agree-check label{
+        font-size: 9px !important;
+    }
+
+    .agree-check{
+        padding:5px 0;
+    }
+    #box{
+        padding: 85px 22px 50px 20px !important;
+        width: 100%;
+    }
+
+    #card-payment{
+        width: 100% !important;
+    }
+    #note h1{
+        margin: 0 !important;
+    }
+    #button-div{
+        text-align: center !important;
+    }
+
+    #tri-icon{
+        right: 30px !important;
+        top: -21rem !important;
+    }
+
+    #icon-div{
+        display: none !important;
+    }
+    #payment-img{
+        width: 100% !important;
+    }
+    #bottom_footer{
+        margin : 0 !important;
+    }
+    .box-row{
+        margin:0 4px !important;
+    }
+}

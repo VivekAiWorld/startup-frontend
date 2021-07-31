@@ -1,0 +1,214 @@
+.card-1 {
+    height: 55%;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+}
+
+.business-section .row {
+    margin-bottom: 2rem;
+}
+
+.business-cards .card {
+    width: 113% !important;
+    background-color: transparent;
+    height: 230px;
+    border: 0 !important;
+
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-top: 5px solid #00c4ff;
+}
+
+.business-cards .card .btn {
+    background-image: linear-gradient(to right, #56b9ff, #ac78ff);
+    border: 0 !important;
+    padding: 6px 29px !important;
+    color: white;
+    font-size: 12px;
+    border-radius: 7px;
+    margin-bottom: 8px;
+}
+
+.business-cards .card h2 {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 25px;
+}
+
+.business-cards .col-2 {
+    padding: 0 !important;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+.topsection-bg {
+    /* background-image: url(./images/home/kit.png); */
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top -72px right -27px;
+
+}
+
+.head {
+    color: #ecf0f1;
+    margin: 0;
+    line-height: 44px;
+    /* margin-bottom: 300px; */
+    font-size: 40px;
+}
+
+.main-p {
+    color: #626275;
+    font-size: 14px;
+}
+
+.buy-now-btn {
+    background-color: #1e95fa;
+    border-color: #1e95fa;
+    padding: .8rem 4.8rem !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #ecf0f1;
+    font-size: 17px;
+    border-radius: 7px !important;
+}
+
+
+.essential-change .card {
+    border: 0;
+    height: 225px;
+    border-radius: 40px;
+    width: 100%;
+    background-image: linear-gradient(#003868, #000);
+}
+
+.essential-change .card img {
+    width: 70%;
+}
+
+.essential-change .card h2 {
+    font-size: 16px;
+    font-weight: 200;
+    color: #cfc8d5;
+    line-height: 25px;
+}
+
+.essential-change .card .card-1 {
+    position: relative;
+    top: -10px;
+    height: 72px;
+}
+
+
+
+.build-your-empire-section {
+    margin: 10rem 0 0 0;
+    height: 38rem;
+    background-image: url('./images/home/group_3024.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.build-your-empire-section .first-col img {
+    width: 120%;
+    position: relative;
+    top: -234px;
+    left: -108px;
+}
+
+.build-your-empire-section h1 {
+    font-family: 'Muli Regular';
+    font-weight: 900;
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.second-col {
+    margin-top: 4.5rem !important;
+    height: 0;
+}
+
+.first-col {
+    height: 0;
+}
+
+.flourish-section .container-sm {
+    background-image: url(./images/home/shape_01.png);
+    background-size: 100%;
+    background-position: 0px 143px;
+    background-repeat: no-repeat;
+
+}
+
+.compatible-section .container {
+    background-image: url(./images/home/Compatible/group_2578.png);
+    background-size: 96%;
+    background-repeat: no-repeat;
+    background-position: top 0px center 0px;
+    background-position: 0 0;
+    height: 50rem;
+}
+
+.compatible-section .card {
+    background: #20202c;
+    border-radius: 6px;
+    border: 0;
+}
+
+.compatible-section .card h1 {
+    color: #d0d0d3;
+    font-size: 16px;
+    margin-left: 22px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.compatible-section .card img {
+    width: 35%;
+}
+
+.compatible-section .content-col h1 {
+    color: #f4f4f4
+}
+
+.compatible-section .content-col p {
+    color: #5d5d67;
+    font-size: 16px;
+}
+
+
+.happy-clients-stories .card {
+    background-color: #1d1d1d;
+    border-radius: 15px;
+    border: 0;
+    height: 25rem;
+}
+
+.happy-clients-stories .card .desc {
+    font-size: 14px;
+    font-weight: 200;
+    color: #cfc8d5;
+    line-height: 25px;
+}
+
+.happy-clients-stories .card img {
+    width: 35%;
+}
+
+.happy-clients-stories .card h2 {
+    font-size: 25px;
+    color: #53bdff;
+}

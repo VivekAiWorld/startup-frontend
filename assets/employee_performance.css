@@ -1,0 +1,62 @@
+/* @media (min-width:1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px !important;
+    }
+} */
+
+.main-head{
+    font-family:'Muli Black';
+    font-weight:normal;
+    color: white;
+    font-size: 44px;
+}
+
+body{
+    background-color: black;
+    background-image: url(./images/performance/bg.png) !important;
+    
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bg{
+    background-image: url(./images/performance/man.svg) !important;
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    height: 50rem;
+    position: absolute;
+    top: 0;
+}
+
+.main-section .container{
+    margin-top: 9rem;
+}
+
+.blur {
+    background: rgba(0,0,0, 0.1);
+    backdrop-filter: blur(2px);
+    height: 295px;
+    width: 100%;
+    border-radius: 40px;
+    /* border: 1px solid white; */
+}
+
+.readmore:hover,.readmore:focus{
+    background-color: rgb(49 158 246) !important;
+} 
+
+.links .fab{
+    margin: 0px 6px;
+    font-size: 18px;
+}
+
+

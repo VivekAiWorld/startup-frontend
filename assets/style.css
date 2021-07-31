@@ -1,0 +1,28 @@
+.navbar a{
+    font-family:'Muli Light';
+    padding-top: 1rem;
+    padding-right:1rem !important;
+    font-size: 13px !important;
+    color: #c7c7c7 !important;
+}
+.navbar ul{
+    margin-right: 5rem;
+}
+body{
+    background: #000000;
+}
+
+h1{
+    font-family: 'Muli Light';
+    font-weight:normal;
+}
+h2 h3 h4 h5 h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+}

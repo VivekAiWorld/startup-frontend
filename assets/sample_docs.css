@@ -1,0 +1,101 @@
+
+@media only screen and (max-width: 600px) {
+    .footer-section{
+        display: none;
+    }
+  }
+
+
+body {
+
+    background: linear-gradient(to right,
+            black, transparent), url(./images/sample_docs/bg.png) black ;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.head{
+    color: white;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+
+.sample_docs{
+    margin-top: 7rem;
+}
+
+.sample_docs .card{
+    border: 1px solid white;
+    border-radius: 18px;
+}
+.sample_docs .card .card-header{
+    background-color: #007fff;
+    border-radius: 18px;
+    border-bottom: inherit;
+
+}
+.sample_docs .card .card-header h1{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0;
+}
+.sample_docs .card  img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* .sample_docs .card .btn{
+    font-size: 11px;
+    font-weight: 200;
+    padding: 5px 13px;
+    letter-spacing: 1px;
+} */
+
+.sample_docs .card .after {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -100%;
+    border-radius: 10px;
+}
+.sample_docs .card .card-body .col-12:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+.sample_docs .card .card-body .col-12:hover .after a{
+    display: block;
+}
+
+/* .after a{
+    background:  inherit;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: none;
+}
+.after a:hover{
+    background:rgba(0,0,0,0.4);
+    border: 1px solid white;
+} */
+
+.sample_docs .card .card-body .after button{
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+    background: rgba(255,255,255,0.2);
+    display: none;
+    padding: 8px 21px;
+}
+.sample_docs .card .card-body .col-12:hover .after button{
+    display: block;
+}
+
+.sample_docs .card .card-body .col-12 .after button:hover{
+    background: rgba(0,0,0,0.2);
+}
